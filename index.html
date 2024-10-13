@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dew Productions</title>
+    <link rel="stylesheet" href="mainstyles.css" class="rel">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="/images/Logo.jpg?height=40&width=40&text=Logo">
+                Dew Productions
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item">
+                    <button id="theme-toggle" class="theme-toggle">
+                        <span class="toggle-slider"></span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Bringing <span style="color: var(--accent-color);">imagination</span> to life in 3D</h1>
+            <p>Transforming ideas into stunning 3D visuals. From product designs to entire worlds.</p>
+        </div>
+    </header>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3><a href="services.html#product-visualization">Product Visualization</a></h3>
+                    <p>Bring your products to life with photorealistic 3D renders.</p>
+                </div>
+                <div class="service-card">
+                    <h3><a href="services.html#architectural-visualization">Architectural Visualization</a></h3>
+                    <p>Transform blueprints into immersive 3D environments.</p>
+                </div>
+                <div class="service-card">
+                    <h3><a href="services.html#3d-ad-commercials">3D Ad Commercials</a></h3>
+                    <p>Create captivating 3D animations for your brand.</p>
+                </div>
+                <div class="service-card">
+                    <h3><a href="services.html#character-design">Character Design</a></h3>
+                    <p>Design unique characters for games, films, and more.</p>
+                </div>
+                <div class="service-card">
+                    <h3><a href="services.html#3d-printing-design">3D Printing Design</a></h3>
+                    <p>Craft 3D models optimized for printing and manufacturing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At 3D Artist Studio, we are passionate about bringing imagination to life through cutting-edge 3D visualization. Our team of skilled artists and designers combines creativity with technical expertise to deliver stunning visual solutions for a wide range of industries. From product design to architectural visualization, we're committed to pushing the boundaries of what's possible in the world of 3D art.</p>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <img src="/images/shoe1.jpg" alt="Mike Johnson">
+                    <p>Casual flip flops 3D model</p>
+                    <p>Good Work!</p>
+                    <p>2024-06-18</p>   
+                    <p class="author">Imersive</p>
+                    <p class="rating">★★★★★</p>
+                </div>
+                <div class="testimonial-card">
+                    <img src="/images/Screenshot (306).png" alt="Mike Johnson">
+                    <p>Animal Skeleton Disarticulation and 3D Printing Preparation</p>
+                    <p>Good communication!</p>
+                    <p>2024-06-17</p>   
+                    <p class="author">mportenier</p>
+                    <p class="rating">★★★★★</p>
+                </div>
+                <div class="testimonial-card">
+                    <img src="/images/stark.png" alt="Mike Johnson">
+                    <p>Stark Motor Racing car</p>
+                    <p>Good work, I will use this model</p>
+                    <p>2022-09-07</p>   
+                    <p class="author">halo221156</p>
+                    <p class="rating">★★★★★</p>
+                </div>
+                <div class="testimonial-card">
+                    <img src="images/Screenshot (362).png" alt="Mike Johnson">
+                    <p>3D texturing-shoulder model-anatomy-Unity-Built-in Render Pipeline-Amplify Shader</p>
+                    <p>Excellent work, with UV mapping</p>
+                    <p>2022-08-21</p>   
+                    <p class="author">apapadonik</p>
+                    <p class="rating">★★★★★</p>
+                </div>
+                <div class="testimonial-card">
+                    <img src="images/Core1.jpg" alt="Mike Johnson">
+                    <p>Core-robot 3D Print</p>
+                    <p>Looks amazing! Great Work/p>
+                    <p>2024-07-12</p>   
+                    <p class="author">Imersive</p>
+                    <p class="rating">★★★★★</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <a href="https://www.cgtrader.com/yourusername" target="_blank" rel="noopener noreferrer"><i class="fas fa-cube"></i></a>
+    <a href="https://www.artstation.com/yourusername" target="_blank" rel="noopener noreferrer"><i class="fab fa-artstation"></i></a>
+</div>
+    <footer>
+        <div class="container">
+            <div class="social-icons">
+                <a href="https://www.instagram.com/3dartist_studio" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                </a>
+                <a href="https://twitter.com/3dartist_studio" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+                </a>
+                <a href="https://www.cgtrader.com/3dartist-studio" target="_blank" rel="noopener noreferrer" aria-label="CGTrader">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cube"><path d="m21.12 6.4-9-4a1 1 0 0 0-.88 0l-9 4A1 1 0 0 0 2 7.28v9.44a1 1 0 0 0 .62.92l9 4a1 1 0 0 0 .88 0l9-4A1 1 0 0 0 22 16.72V7.28a1 1 0 0 0-.88-.88Z"/><path d="M12 22V12"/><path d="m2.12 7.12 9.88 5.88 9.88-5.88"/></svg>
+                </a>
+                <a href="https://www.artstation.com/3dartist_studio" target="_blank" rel="noopener noreferrer" aria-label="ArtStation">
+                    <svg fill="#000000" width="24px" height="24px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><title>ArtStation icon</title><path d="M0 17.723l2.027 3.505h.001a2.424 2.424 0 0 0 2.164 1.333h13.457l-2.792-4.838H0zm24 .025c0-.484-.143-.935-.388-1.314L15.728 2.728a2.424 2.424 0 0 0-2.142-1.289H9.419L21.598 22.54l1.92-3.325c.378-.637.482-.919.482-1.467zm-11.129-3.462L7.428 4.858l-5.444 9.428h10.887z"/></svg>
+                </a>
+            </div>
+            <p>&copy; 2024 Dew Productions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            fetch('/send-email', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Thank you for your message. We will get back to you soon!');
+                    this.reset();
+                } else {
+                    alert('There was an error sending your message. Please try again later.');
+                }
+            })
+            
+            .catch(error => {
+                console.error('Error:', error);
+                alert('There was an error sending your message. Please try again later.');
+            });
+        });
+
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            localStorage.setItem('theme', body.classList.contains('dark-mode') ? 'dark' : 'light');
+        });
+
+        // Check for saved theme preference or use device preference
+        const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+        if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && prefersDarkScheme.matches)) {
+            body.classList.add('dark-mode');
+        }
+
+        // Smooth scrolling for navbar links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        
+    </script>
+    
+</body>
+</html>
